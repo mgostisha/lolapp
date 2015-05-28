@@ -1,0 +1,6 @@
+".container": {
+  layout: "vertical",
+  backgroundColor: "#fff"
+}
+"#content": {
+},

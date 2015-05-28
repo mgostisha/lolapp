@@ -1,0 +1,16 @@
+{
+    "name": "six-pack",
+    "version": "0.1.0",
+    "description": "An app starting point",
+    "repository": {
+        "type": "git",
+        "url": "https://bitbucket.org/uwm-mil/six-pack"
+    },
+    "author": "UWM App Brewery",
+    "license": "Apache 2.0",
+    "devDependencies": {
+        "alloy-smelter": "*",
+        "tio2": "*",
+        "tn": "*"
+    }
+}

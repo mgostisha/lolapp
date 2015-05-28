@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+	<id>edu.uwm.sixpack</id>
+	<name>Six Pack</name>
+	<version>1.0</version>
+	<publisher>UWM App Brewery</publisher>
+	<url>http://appbrewery.org</url>
+	<description/>
+	<copyright>2014 UWM App Brewery</copyright>
+	<icon>appicon.png</icon>
+	<fullscreen>false</fullscreen>
+	<navbar-hidden>false</navbar-hidden>
+	<analytics>false</analytics>
+	<guid>54e727f1-d8ec-4ddf-9f7c-ec80444d1674</guid>
+	<property name="ti.ui.defaultunit" type="string">dp</property>
+	<ios>
+		<min-ios-ver>7.1</min-ios-ver>
+		<plist>
+			<dict>
+				<key>UISupportedInterfaceOrientations~iphone</key>
+				<array>
+					<string>UIInterfaceOrientationPortrait</string>
+				</array>
+				<key>UISupportedInterfaceOrientations~ipad</key>
+				<array>
+					<string>UIInterfaceOrientationPortrait</string>
+					<string>UIInterfaceOrientationPortraitUpsideDown</string>
+					<string>UIInterfaceOrientationLandscapeLeft</string>
+					<string>UIInterfaceOrientationLandscapeRight</string>
+				</array>
+				<key>UIRequiresPersistentWiFi</key>
+				<false/>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+				<key>UIStatusBarHidden</key>
+				<false/>
+				<key>UIStatusBarStyle</key>
+				<string>UIStatusBarStyleDefault</string>
+			</dict>
+		</plist>
+	</ios>
+	<android xmlns:android="http://schemas.android.com/apk/res/android">
+		<manifest>
+			<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="19"/>
+				<uses-permission android:name="android.permission.INTERNET"/>
+				<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+		</manifest>
+	</android>
+	<modules>
+    <module platform="android" version="1.0.1">ti.ga</module>
+    <module platform="iphone" version="1.0.1">ti.ga</module>
+  </modules>
+	<deployment-targets>
+		<target device="android">true</target>
+		<target device="blackberry">false</target>
+		<target device="ipad">true</target>
+		<target device="iphone">true</target>
+		<target device="mobileweb">false</target>
+	</deployment-targets>
+	<sdk-version>4.0.0.GA</sdk-version>
+<plugins><plugin version="1.0">ti.alloy</plugin>
+</plugins>
+</ti:app>

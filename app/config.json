@@ -1,0 +1,14 @@
+{
+  "global": {},
+  "env:development": {},
+  "env:test": {},
+  "env:production": {},
+  "os:android": {},
+  "os:ios": {},
+  "dependencies": {
+    "nl.fokkezb.loading": "1.8.3",
+    "edu.uwm.navBar": "0.2",
+    "com.mcongrove.tabs": "*",
+    "edu.uwm.menu": "*"
+  }
+}

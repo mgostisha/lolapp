@@ -1,0 +1,12 @@
+<Alloy>
+  <View id="wrapper">
+  	<View id="background"/>
+    <View id="slide">
+      <View id="header">
+        <ImageView id="close"/>
+      </View>
+      <TableView id="nodes"/>
+      <View id="footer"/>
+    </View>
+  </View>
+</Alloy>

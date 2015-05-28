@@ -1,0 +1,9 @@
+<Alloy>
+	<Window class="container">
+		<!-- top bar //-->
+		<Require type="widget" src="edu.uwm.navBar" id="navBar" />
+		<View id="content">
+			<Label id="start" text="Hello, World"/>
+		</View>
+	</Window>
+</Alloy>

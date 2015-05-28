@@ -1,0 +1,8 @@
+"Window": {
+  navBarHidden:true,
+},
+
+"#screen": {
+  backgroundColor:"white",
+  layout:"vertical"
+}

@@ -1,0 +1,19 @@
+"TableViewRow": {
+	height: "47dp",
+	backgroundcolor: "#111",
+	backgroundSelectedColor: "#222",
+	selectedBackgroundColor: "#222"
+}
+
+"Label": {
+	top: "0dp",
+	left: "47dp",
+	right: "13dp",
+	height: "46dp",
+	font: {
+		fontSize: "16dp",
+		fontFamily: "HelveticaNeue-Light"
+	},
+	color: "#FFF",
+	touchEnabled: false
+}

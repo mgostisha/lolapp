@@ -1,0 +1,8 @@
+<Alloy>
+	<Window class="container">
+		<Require type="widget" src="edu.uwm.navBar" id="navBar" />
+		<View id="content">
+			<Label text="Example Controller"/>
+		</View>
+	</Window>
+</Alloy>

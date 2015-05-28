@@ -1,0 +1,37 @@
+"#wrapper": {
+	width: Alloy.Globals.device.width,
+	height: Alloy.Globals.device.height,
+	zIndex: 1
+}
+
+"#background": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	backgroundColor: "#000",
+	opacity: 0.0
+}
+"#slide": {
+	width: "250dp",
+	top: 0,
+	left: 0,
+	backgroundColor: "#000",
+	layout: "vertical"
+}
+
+"#header": {
+	height: "30dp"
+}
+
+"#close": {
+	image: "/images/icons/37-circle-x.png",
+	right: 0,
+	height: "24dp",
+	width: "24dp"
+}
+
+"#nodes": {
+	top: "0dp",
+	backgroundColor: "#111",
+	separatorColor: "#222",
+	separatorStyle: Ti.UI.iPhone.TableViewSeparatorStyle.SINGLE_LINE
+}
