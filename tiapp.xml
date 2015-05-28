@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-	<id>edu.uwm.sixpack</id>
-	<name>Six Pack</name>
-	<version>1.0</version>
-	<publisher>UWM App Brewery</publisher>
-	<url>http://appbrewery.org</url>
+	<id>com.mcgostisha.lolapp</id>
+	<name>LoL</name>
+	<version>1.0.0</version>
+	<publisher>Martin Gostisha</publisher>
+	<url>http://mcgostisha.com</url>
 	<description/>
-	<copyright>2014 UWM App Brewery</copyright>
+	<copyright>2015 Martin Gostisha</copyright>
 	<icon>appicon.png</icon>
 	<fullscreen>false</fullscreen>
 	<navbar-hidden>false</navbar-hidden>
@@ -41,7 +41,7 @@
 	</ios>
 	<android xmlns:android="http://schemas.android.com/apk/res/android">
 		<manifest>
-			<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="19"/>
+			<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="22"/>
 				<uses-permission android:name="android.permission.INTERNET"/>
 				<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 		</manifest>
@@ -53,7 +53,7 @@
 	<deployment-targets>
 		<target device="android">true</target>
 		<target device="blackberry">false</target>
-		<target device="ipad">true</target>
+		<target device="ipad">false</target>
 		<target device="iphone">true</target>
 		<target device="mobileweb">false</target>
 	</deployment-targets>
