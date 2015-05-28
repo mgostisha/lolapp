@@ -1,7 +1,6 @@
 /// <reference path="../../typings/tsd.d.ts" />
 
 var dispatcher = require('dispatcher'),
-    ga = require('ti.ga'),
     args = arguments[0] || {};
     // tracker = ga.createTracker({
     //   trackingId:Alloy.Globals.settings.ga,
@@ -19,7 +18,7 @@ $.init = function() {
   // tracker.addScreenView('my-cool-view2');
   $.navBar.setBackgroundColor("#ccc");
   $.navBar.showBack(function(){
-    $.example.close();
+    $.summoner_info.close();
   });
 };
 
@@ -42,6 +41,6 @@ $.cleanup = function() {
 /**
  * Events
  */
-$.example.addEventListener('close', $.cleanup);
+$.summoner_info.addEventListener('close', $.cleanup);
 
 $.init();

@@ -8,30 +8,16 @@
 /**
  * Variables
  */
-var dispatcher = require('dispatcher'),
-    ga = require('ti.ga');
-    // tracker = ga.createTracker({
-    //   trackingId:Alloy.Globals.settings.ga,
-    //   useSecure:true,
-    //   debug:true
-    // });
-
+var dispatcher = require('dispatcher');
 
 
 /**
  * Bootstrap method
  * @method $.init
- *
  */
 $.init = function() {
-  //GA pageview
-  // tracker.addScreenView('my-cool-view2');
-
-  $.navBar.setBackgroundColor("#ccc");
-  $.navBar.setTitle('SixPack');
-
-  //this array will hold window stack for ho home functionality
-  Alloy.Globals.stack = [];
+  $.navBar.setBackgroundColor("#fff");
+  $.navBar.setTitle('League of Legends');
 };
 
 
@@ -40,14 +26,11 @@ $.init = function() {
  * @method $.cleanup
  */
 $.cleanup = function() {
-
   $.destroy();
-
   $.off();
-
   dispatcher.off(null, null, $);
-
 };
+
 
 /**
  * Events
@@ -62,13 +45,9 @@ if(OS_ANDROID) {
 
 $.index.addEventListener('close', $.cleanup);
 
+
 $.start.addEventListener('click', function() {
-
-
-  var win = Alloy.createController('example').getView();
-  Alloy.Globals.stack.push(win);
-  win.open();
-  win = null;
+  Alloy.createController('summoner_info').getView().open();
 });
 
 
